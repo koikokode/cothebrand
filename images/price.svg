@@ -1,0 +1,60 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1282.08 204">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 60px;
+        font-family: HelveticaNeue-MediumExt, Helvetica Neue;
+        font-weight: 500;
+      }
+
+      .cls-1, .cls-7, .cls-9 {
+        fill: #333;
+      }
+
+      .cls-2 {
+        letter-spacing: -0.04em;
+      }
+
+      .cls-3 {
+        letter-spacing: -0.07em;
+      }
+
+      .cls-4 {
+        font-size: 48px;
+        font-family: HelveticaNeue-LightExtObl, Helvetica Neue;
+        font-style: oblique;
+        letter-spacing: -0.09em;
+      }
+
+      .cls-4, .cls-6 {
+        fill: #848484;
+        font-weight: 300;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        font-size: 72px;
+        font-family: HelveticaNeue-LightExt, Helvetica Neue;
+      }
+
+      .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-8, .cls-9 {
+        stroke: #848484;
+        stroke-miterlimit: 10;
+        stroke-width: 5px;
+      }
+    </style>
+  </defs>
+  <title>price</title>
+  <text class="cls-1" transform="translate(0 51.42)"><tspan class="cls-2">T</tspan><tspan class="cls-3" x="38.94" y="0">A</tspan><tspan x="82.5" y="0">YSON BROTHERHOOD</tspan></text>
+  <text class="cls-4" transform="translate(0 119.54)">T<tspan class="cls-5" x="25.82" y="0">-shirt</tspan></text>
+  <text class="cls-6" transform="translate(1135.04 188.16)">$<tspan class="cls-7" x="48.1" y="0">20</tspan></text>
+  <circle class="cls-8" cx="1165.58" cy="28.17" r="25"/>
+  <circle class="cls-9" cx="1254.58" cy="28.17" r="25"/>
+</svg>

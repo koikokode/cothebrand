@@ -1,0 +1,26 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 564.62 348.44">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c4c4c4;
+      }
+
+      .cls-2 {
+        font-size: 65.68px;
+        fill: #f2f2f2;
+        font-family: HelveticaNeue-MediumItalic, Helvetica Neue;
+        font-weight: 500;
+        font-style: italic;
+      }
+    </style>
+  </defs>
+  <title>logofo</title>
+  <g id="Layer_1-2" data-name="Layer 1-2">
+    <path class="cls-1" d="M401.84,502.59c0-42.81,18.38-76.1,77.54-76.1,38,0,66.54,19.66,66.54,53.51h-9.87c-8.64-13.29-25.93-19.08-56.32-19.08-29,0-65.63,8.29-65.63,43.41,0,25.24,15.15,43.42,59.83,43.42,33.23,0,57.31-7.45,62.17-23.75H546c-7.62,34.49-30.29,50.39-73.09,50.39C428.18,574.44,401.84,546.83,401.84,502.59Z" transform="translate(-401.38 -370)"/>
+    <path class="cls-1" d="M632,427.56c-54.29,2-71.34,34.2-71.34,75.25,0,43.83,24.77,71.08,70.3,71.19H633c45.53-.11,70.3-27.36,70.3-71.19C703.32,461.76,686.27,429.55,632,427.56Zm0,120.23c-44.3,0-59.28-8.4-59.28-41.86,0-41.93,31.71-44.09,59.28-44.17,27.57.08,59.27,2.24,59.27,44.17,0,33.5-15,41.9-59.27,41.9Z" transform="translate(-401.38 -370)"/>
+    <rect class="cls-1" x="282.62" width="10" height="50"/>
+    <polyline class="cls-1" points="230.83 38.99 194.09 50.5 190.71 40.48 230.83 27.53"/>
+    <polyline class="cls-1" points="230.83 38.99 267.56 50.5 270.94 40.48 230.83 27.53"/>
+  </g>
+  <text class="cls-2" transform="translate(0 334.12)">© CO THE BRAND</text>
+</svg>

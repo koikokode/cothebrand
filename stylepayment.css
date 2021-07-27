@@ -1,0 +1,285 @@
+body {	
+	background: #fff;
+	cursor: none;
+	overflow-x: hidden;
+	color: #404040;
+}
+body a{
+	text-decoration: none;
+	color: inherit;
+}
+
+
+
+#cursor {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 50%;
+  mix-blend-mode: difference;
+  pointer-events: none;
+  transition: 0.15s ease;
+}
+section {
+  min-height: 100%vh;
+}
+
+
+.logo{
+	margin-top: 5px;
+	width: 4%;
+	margin-left: 10%;
+	position: fixed;
+}
+.backgroundd{
+	background-image: url("picture/background.svg");
+ 	background-size: cover;
+	back
+	height: 100%;
+}
+.main{
+	color: #404040;
+	margin-left: -30px;
+	max-height: 1080px;
+}
+.menu{
+	z-index: 1;
+	margin-top: 20px;
+	width: 100%;
+	height: 120px;
+	position: fixed;
+	top: 0;
+	transition: all 0.5s ease;
+}
+.galleryimg:hover + .menu{
+	margin-top: -40px;
+	transition: all 0.5s ease;
+}
+.menu a{
+	border: none;
+	background: initial;	
+	font-family: "Helvetica Neue";
+	font-size: 17px;
+	transition: all 0.5s ease;
+}
+.menu a:hover{
+	font-weight: 700;
+	font-size: 19px;
+	transition: all 0.15s ease;
+}
+.menuleft{
+	float: left;
+	margin-left: 5%;
+}
+.menuright{
+	float: right;
+	margin-right: 5%;
+}
+.menuleft ul li{
+	list-style: none;
+	float: left;
+	margin-left: 20px;
+}
+.menuright ul li{
+	list-style: none;
+	float: right;
+	margin-right: 20px;
+}
+
+
+.galleryimgframe{
+	width: 27%;
+	z-index: 3;
+	border: none;
+	background-color: initial;
+	display: block;
+	margin-right: 0.25%;
+	margin-top:30vh;
+	float:left;
+	text-align: left;
+	font-size: 20px;
+	font-weight: 700;
+	transition: all 1s ease;
+}
+
+
+.gallery{
+	width: 100%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.galleryimg{
+	margin-top:120px;
+	width: 100%;
+	transition: all 2s ease;
+}
+
+.title{
+	font-weight: 400;
+	font-size: 20px;
+	margin-bottom: -4%;
+}
+
+.info{
+	font-weight: 400;
+	font-weight: 20px;
+	margin-bottom: -5%;
+}
+
+button.gallerytype{
+	text-align: left;
+	border: none;
+	background-color: initial;
+	width: 80%;
+	float:left;
+	font-size: 30px;
+	margin-left: 10%;
+	font-weight: 500;
+	font-family: "Helvetica Neue";
+	transition: all 3s ease;
+	opacity: 0.2;
+}
+
+
+
+.showmore{
+	width: 20%;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 30px;
+	margin-left: 40%;
+	margin-right: 40%;
+	border: none;
+	background-color: initial;
+	font-family: "Helvetica Neue";
+	opacity: 0.4;
+	transition: all 1s ease;
+}
+.scrollbutton{
+	width: 10%;
+	font-size: 20px;
+	text-align: right;
+	margin-top: 16%;
+	margin-left: 88%;
+	border: none;
+	background-color: initial;
+	font-family: "Helvetica Neue";
+	opacity: 0.4;
+	transition: all 1s ease;
+	
+}
+.gallerytypeimg
+{
+	font-size: 40px;
+	margin-top: 12vh;
+	margin-bottom: -14vh;
+	margin-left: 38%;
+	font-weight: 500;
+	font-family: "Helvetica Neue";
+	opacity: 0.4;
+}
+button.scrollbutton:hover {
+	opacity: 1;
+	font-size: 23px;
+	transition: all 1s ease;
+}
+button.showmore:hover {
+	opacity: 1;
+	font-size: 25px;
+	transition: all 1s ease;
+}
+
+
+button.galleryimgframe:hover + button.gallerytype{
+	opacity: 0;
+	transition: all 1s ease;
+}
+.lastseason{
+	font-size: 17px;
+	float: left;
+	border: none;
+	background-color: initial;
+	margin-left: 7%;
+	transition: all 1.5 ease;
+}
+.lastseason ul li{
+	list-style-type: none;
+	margin-top: -45px;
+	padding: 10px;
+	transition: all 1.5 ease;
+}
+.leftarrow{
+	widtth: 100px;
+	height: 5px;
+	display: none;
+	transition: all 1.5 ease;
+}
+
+.nextseason{
+	font-size: 17px;
+	float: right;
+	border: none;
+	background-color: initial;
+	margin-right: 7%;
+	transition: all 1.5 ease;
+}
+.nextseason ul li{
+	list-style-type: none;
+	margin-top: -45px;
+	padding: 10px;
+	transition: all 1.5 ease;
+}
+.rightarrow{
+	widtth: 100px;
+	height: 5px;
+	display: none;
+	transition: all 1.5 ease;
+}
+
+button.nextseason ul:hover {
+	margin-left: 5px;
+	font-size: 18px;
+	transition: all 0.7s ease;
+}
+button.lastseason ul:hover {
+	margin-right: 5px;
+	font-size: 18px;
+	transition: all 0.7s ease;
+}
+button.lastseason ul:hover > .leftarrow{ 
+	display: block;
+	transition: all 0.7s ease;
+} 
+button.nextseason ul:hover > .rightarrow{
+	display: block;
+	transition: all 0.7s ease;
+}
+/**/
+
+#lastseason{
+	display: hidden;
+
+}
+.title input{
+	border: none;
+	margin-bottom: 20px;
+	border-top-style: hidden;
+ 	border-right-style: hidden;
+  	border-left-style: hidden;
+  	border-bottom-style: groove;
+	background-color: initial;
+	width: 70%;
+}
+.title input:focus{
+	outline: none;
+}
+.title:hover{
+	font-size: 27px;
+	margin: 8%;
+	transition: all 2s ease;
+}
+.title{
+	margin: 5%;
+	transition: all 2s ease;
+}

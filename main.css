@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	overflow-x: hidden;
+	overflow-y: hidden;
+	background-image:url("../images/background.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.nav 
+{
+	width: 100vw;
+	height: 6vh;
+	background-color: none;
+}
+.menu ul
+{
+  display: flex;
+  justify-content: flex-end;
+	margin-right: 5vw;
+	list-style: none;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.menu ul li
+{
+	padding-right: 3vw;
+	padding-top: 3vh;
+	cursor: pointer;
+}
+.menu ul li:hover{
+	font-weight: 800;
+}
+.logo
+{
+	width: 5vw;
+	height: 5vh;
+	margin-left: 8vw;
+	float: left;	
+}
+.banner
+{
+	width: 200vw;
+	height: 20vh;
+	background-color: none;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+	font-size: 60px;
+	margin-top: 10vh;
+	animation: slideInRight 10s 0.5s infinite;
+	margin-left: -100vw;
+}
+.product
+{
+	width: 80vw;
+	height: 40vh;
+	display: flex;
+	justify-content: center;
+	
+}
+.ao1
+{
+	witdh: 20vw;
+	padding-left: 20vw;
+	height: 40vh;
+}
+.ao2
+{
+	witdh: 20vw;
+	padding-left: 10vw;
+	height: 40vh;
+}
+.ao3
+{
+	witdh: 20vw;
+	padding-left: 10vw;
+	height: 40vh;	
+}
+.productname
+{
+	width: 80vw;
+	height: 20vh;
+	display: flex;
+	margin-left: 10vw;
+	margin-top: 5vh;
+	
+	
+}
+.ao1_name
+{
+	witdh: 20vw;
+	margin-right: 10vw;
+	height: 20vh;
+	
+}
+.ao2_name
+{
+	witdh: 20vw;
+	margin-right: 10vw;
+	height: 20vh;
+}
+.ao3_name
+{
+	witdh: 20vw;
+	height: 20vh;	
+}
+a{
+  cursor: default;
+  text-decoration: none;
+  color: black;
+
+	text-decoration: none;
+}

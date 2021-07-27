@@ -1,0 +1,415 @@
+@charset "UTF-8";
+body
+{
+	overflow-x: hidden;
+	overflow-y: scroll;
+	user-select: none;
+}
+
+/* ______________________________ GENERAL-SETTINGS ______________________________ */
+
+*{margin: 0px; padding: 0px;}
+
+.backgroundd{
+	background-image: url("../image/background2.svg");
+	background-size: cover;
+	
+}
+.landingpage
+{
+	width: 100vw;
+	height: 295vh;
+	background-color: none;
+	
+
+}
+.container {
+  	position:relative;
+	width: 100%;
+	height: 60vh ;
+	background-image: none;
+	background-repeat: repeat;
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+	z-index: 2;
+	
+}
+
+.arrow-left, .arrow-right {
+	width: 40px;
+	text-align: justify;
+	cursor: pointer;
+	
+}
+.arrow-left
+{
+	margin-right: 20vw;
+}
+.arrow-right{
+	margin-left: 20vw;
+}
+
+.slider-container {
+	width: 420px;
+	height: 630px;
+	background-color: white;
+	overflow: hidden;
+}
+
+.old-item {
+	position: absolute;
+	width: 420px;
+	height: 630px;
+}
+
+.new-item {
+	position: relative;
+	width: 420px;
+	height: 630px;
+	margin-left: 420px;
+}
+.nav 
+{
+	width: 100vw;
+	height: 20vh;
+	background-color: none;
+	z-index: 1;
+}
+.menu ul
+{
+  display: flex;
+  justify-content: flex-end;
+	margin-right: 5vw;
+	margin-top: 3vh;
+	list-style: none;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.menu ul li
+{
+	padding-right: 3vw;
+	padding-top: 3vh;
+}
+.menu ul li a
+{
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+  	margin: auto;
+  	font-size: 18px;
+  	font-weight: 300;
+ 	transition: all 2s ease;
+  	
+}
+.menu ul li a:hover {
+ 	font-weight: 700;
+	font-size: 20px;
+	transition: all 0.15s ease;
+}
+.logo
+{
+	width: 5vw;
+	height: 5vh;
+	margin-left: 8vw;
+	margin-top: 0.1vh;
+	float: left;	
+}
+.scroll_down
+{
+	width: 100vw;
+	height: 15vh;
+	background-color: none;
+}
+.scroll_down_button
+{
+	width: 10vw;
+	height: 15vh;
+	position: absolute;
+	text-align: center;
+	color: #848484;
+	font-family: "Helvetica Neue";
+	padding-top: 10vh;
+	margin-left: 45vw;
+	animation: scroll_down 1s ease-in-out infinite;
+}
+@keyframes scroll_down
+{
+	0%{opacity: 0;}
+	30%{opacity: 1;}
+	60%{opacity: 1;}
+	100%%{opacity: 0;
+		top: 90%;
+	}
+}
+.content1
+{
+	width: 100vw;
+	height: 25vh;
+	background-color: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: space-between;
+	
+}
+.content1_text1
+{
+	width: 30vw;
+	height: 5vh;
+	background-color: none;
+	padding-bottom: 3vh;
+	text-align: center;
+	font-size: 60px;
+	color: #333333;
+	font-family: "Helvetica Neue";
+	font-weight: 700;
+
+}
+.content1_text2
+{
+	width: 35vw;
+	height: 5vh;
+	background-color: none;
+	text-align: center;
+	font-size: 22px;
+	color: #848484;
+	font-family: "Helvetica Neue";
+}
+.about
+{
+	width: 100vw;
+	height: 75vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.about_back
+{
+	width: 80vw;
+	height: 75vh;
+	background-image: url("../image/000023.JPG");
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.about_button
+{
+	width: 15vw;
+	height: 10vh;
+}
+.about_button:hover
+{}
+.content2
+{
+	width: 100vw;
+	height: 25vh;
+	background-color: none;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: space-between;
+	
+	
+}
+.content2_text1
+{
+	width: 25vw;
+	height: 5vh;
+	background-color: none;
+	padding-bottom: 3vh;
+	text-align: center;
+	font-size: 60px;
+	color: #333333;
+	font-family: "Helvetica Neue";
+	font-weight: 700;
+}
+.content2_text2
+{
+	width: 25vw;
+	height: 5vh;
+	background-color: none;
+	text-align: center;
+	font-size: 22px;
+	color: #848484;
+	font-family: "Helvetica Neue";
+}
+.sub
+{
+	width: 100vw;
+	height: 45vh;
+	background-color: none;
+	display: flex;
+ 	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.sub_text
+{
+	width: 30vw;
+	height: 25vh;
+  	background-color: none;
+	padding-right: 10vw;
+}
+.sub_mail
+{
+	width: 25vw;
+	height: 15vh;
+	background-color: none;
+}
+.sub_box
+{
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	outline: none;
+	width: 20vw;
+	height: 5vh;
+	font-size: 20px;
+}
+.sub_bt
+{
+	font-size: 40px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+	cursor: pointer;
+	padding-top: 3vh;
+}
+.sub_bt:hover{
+	font-weight: 900;
+	
+}
+.footer
+{
+	width: 100vw;
+	height: 30vh;
+	background-color: #333333;
+ 	display: flex;
+ 	flex-direction: column;
+	justify-content: center;
+}
+.footer_contact
+{
+	with 60vw;
+	height: 15vh;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	
+}
+.footer_address
+{
+	width: 15vw;
+	height: 15vh;
+	padding-left: 25vw;
+	padding-right: 5vw;
+}
+.footer_logo
+{
+	width: 8vw;
+	height: 10vh;
+	padding-top: -5vh;
+}
+.footer_phone
+{
+	width: 11vw;
+	height: 15vh;
+}
+.footer_menu
+{
+	width: 30vw;
+	height: 5vh;
+	margin-left: 51vw;
+}
+.footer_menu ul
+{
+  display: flex;
+  justify-content: flex-start;
+	margin-right: 5vw;
+	margin-top: 3vh;
+	list-style: none;
+	font-family: "Helvetica Neue"
+}
+.footer_menu ul li a
+{
+	text-decoration: none;
+	color: #C4C4C4;
+	cursor: pointer;
+  	margin: auto;
+  	font-size: 14px;
+  	font-weight: 300;
+ 	transition: font-weight 250ms ease-in-out;
+  	
+}
+.footer_menu ul li a:hover {
+  font-weight: 800;
+}
+.footer_menu ul li
+{
+	padding-right: 3vw;
+}
+.footer_cop
+{
+	width: 15vw;
+	height: 1vh;
+	margin-left: 18vw;
+}
+.old-item{
+	
+	border: none;
+	background-color: initial;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	transition: all 2s ease;
+	
+}
+
+.old-item:hover{
+	height: 650px;
+	transition: all 1s ease;
+}
+button.old-item {
+	opacity: 0.4;
+	transition: all 3s ease;
+}
+button.old-item:hover{
+	opacity: 1;
+	transition: all 2s ease;
+}
+
+
+button.gallerytype{
+	border: none;
+	background-color: initial;
+	width: 60%;
+	float:left;
+	text-align: center;
+	font-size: 80px;
+	padding-top: 0vw;
+	padding-left: ;
+	transition: all 3s ease;
+	opacity: 1;
+	z-index: 3;
+	position: absolute;
+}
+
+
+
+button.old-item:hover + button.gallerytype{
+	opacity: 0;
+	transition: all 1s ease;
+}

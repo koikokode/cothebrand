@@ -1,0 +1,29 @@
+<svg id="Layer_3" data-name="Layer 3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 509.66 239.64">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 48px;
+        fill: #f2f2f2;
+        font-family: HelveticaNeue-Medium, Helvetica Neue;
+      }
+
+      .cls-1, .cls-2 {
+        font-weight: 500;
+      }
+
+      .cls-2 {
+        font-size: 70.57px;
+        fill: #c4c4c4;
+        font-family: HelveticaNeue-MediumItalic, Helvetica Neue;
+        font-style: italic;
+      }
+
+      .cls-3 {
+        letter-spacing: -0.07em;
+      }
+    </style>
+  </defs>
+  <title>phone</title>
+  <text class="cls-1" transform="translate(0 171.44)">+84 123 456 789<tspan x="0" y="57.6">hello@cothebrand.com</tspan></text>
+  <text class="cls-2" transform="translate(3.61 60.48)">CON<tspan class="cls-3" x="155.46" y="0">T</tspan><tspan x="192.5" y="0">ACT</tspan></text>
+</svg>

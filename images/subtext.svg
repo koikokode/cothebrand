@@ -1,0 +1,59 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 730.78 258.78">
+  <defs>
+    <style>
+      .cls-1, .cls-9 {
+        font-size: 56.05px;
+        fill: #333;
+        font-family: HelveticaNeue-MediumExt, Helvetica Neue;
+      }
+
+      .cls-1 {
+        font-weight: 500;
+      }
+
+      .cls-2 {
+        letter-spacing: -0.04em;
+      }
+
+      .cls-3 {
+        letter-spacing: -0.07em;
+      }
+
+      .cls-4 {
+        letter-spacing: -0.05em;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6, .cls-8 {
+        font-size: 52.44px;
+        font-family: MyriadPro-Regular, Myriad Pro;
+        font-weight: 400;
+        fill: #000;
+      }
+
+      .cls-7 {
+        font-size: 42.04px;
+        fill: #848484;
+        font-family: HelveticaNeue-MediumItalic, Helvetica Neue;
+        font-style: italic;
+      }
+
+      .cls-8, .cls-9 {
+        font-style: normal;
+      }
+
+      .cls-10 {
+        letter-spacing: -0.06em;
+      }
+
+      .cls-11 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <title>subtext</title>
+  <text class="cls-1" x="-242.45" y="-278"><tspan x="2.52" y="111.15">STAY UP-TO-DATE</tspan><tspan class="cls-6" x="586.15" y="111.15"> </tspan><tspan class="cls-7"><tspan x="2.52" y="178.41">ON OUR</tspan><tspan class="cls-8" x="169.11" y="178.41"> </tspan><tspan class="cls-9" x="180.23" y="178.41">PROMOTIONS</tspan><tspan class="cls-8" x="628.44" y="178.41"> </tspan><tspan x="2.52" y="245.67">AND LATEST</tspan><tspan class="cls-8" x="257.89" y="245.67"> </tspan><tspan class="cls-9" x="269.01" y="245.67">COLLECTIONS</tspan></tspan></text>
+</svg>
